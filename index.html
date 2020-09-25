@@ -3,22 +3,31 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name=viewport content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="app.css" />
     <title>jl | www</title>
   </head>
   <body>
+
     <div id="container">
-      <nav>
-        <ul>
+      <nav id="nav_main">
+        <div id="nav_home" style="display:none;">
+          <img id="icon-home" src="images/icon-jl-dotcom-home.png" />
+          <button id="btn-menu" type="button" name="button">
+            MENU
+          </button>
+        </div>
+        <ul id="nav_left">
           <li><a href="index.html">jl.com</a></li>
         </ul>
-        <ul>
-          <li><a href="pages/biography.html">biography</a></li>
-          <li><a href="pages/35mm.html">photography</a></li>
-          <li><a href="pages/projects.html">projects</a></li>
-          <li><a href="pages/the-blog.html">the blog</a></li>
+        <ul id="nav_right">
+          <li class="nav-li"><a href="pages/biography.html">biography</a></li>
+          <li class="nav-li"><a href="pages/photography.html">photography</a></li>
+          <li class="nav-li"><a href="pages/projects.html">projects</a></li>
+          <li class="nav-li"><a href="pages/the-blog.html">the blog</a></li>
         </ul>
       </nav>
-      <h2>jl dot com</h2>
+      <h2>my site.</h2>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>

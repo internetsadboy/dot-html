@@ -1,0 +1,45 @@
+* {
+  font-family: monospace;
+  color: lime;
+  background-color: beige;
+}
+
+a {
+  background-color: black;
+  padding: 3px 10px;
+  text-decoration: none;
+}
+
+li {
+  float: left;
+  padding: 0 15px;
+  list-style: none;
+}
+
+ul#nav_left {
+  padding-left: 0;
+  display: inline-block;
+}
+
+ul#nav_right {
+  display: inline-block;
+  float: right;
+}
+
+img#icon-home {
+  display: inline;
+  width: 25px;
+  position: absolute;
+  margin: 14px;
+  background-color: black;
+}
+
+button#btn-menu {
+    width: 100%;
+    background: black;
+    font-size: 33px;
+    padding: 5px;
+    letter-spacing: -1px;
+    font-family: helvetica;
+    font-weight: bold;
+}
