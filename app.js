@@ -112,7 +112,7 @@ function isMobile() {
     }
   };
 
-  return isMobile.any() || window.innerWidth <= 634;
+  return isMobile.any() || window.innerWidth <= 634; // width which breaks main nav
 }
 
 function handleResize() {
