@@ -43,3 +43,91 @@ button#btn-menu {
     font-family: helvetica;
     font-weight: bold;
 }
+
+
+/** PAGE: PROJECT **/
+.project-card {
+  max-width: 100% !important;
+  margin: auto;
+  text-align: center;
+}
+
+.project-title {
+  background-color: lime;
+  color: black;
+  font-family: monospace;
+  font-size: 25px;
+  font-weight: 200;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+  padding: 3px 10px;
+}
+
+.project-timestamp {
+  background: lime;
+  color: black;
+  font-family: helvetica;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.project-description {
+  background-color: black;
+  color: lime;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+  font-family: helvetica;
+}
+
+main {
+  margin: auto;
+  margin-top: 50px;
+  max-width: 500px;
+}
+
+.center {
+  /* left: 50%; */
+  margin: 40px auto;
+  /* margin-top: 40px; */
+  /* position: absolute; */
+  text-align: center;
+  /* top: 50%; */
+  /* transform: translate(-50%, -50%); */
+  width: 300px;
+}
+
+#profile-img {
+  max-width: 100%;
+  margin: 10px 0;
+}
+
+#profile-est {
+  background-color: white;
+  color: darkorchid;
+  font-family: helvetica;
+  font-size: xx-large;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+#profile-statement {
+  color: red;
+  background-color: antiquewhite;
+  padding: 10px;
+  margin: 0;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.profile-card-title {
+  background-color: black;
+}
+
+.font-bold {
+  font-weight: bold;
+  color: red;
+}
