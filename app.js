@@ -54,7 +54,7 @@ function setResponsiveUI() {
       for (let i = 0; i < nav_li.length; i++) {
 
         let temp_li = nav_li[i];
-        let temp_a = a[i];
+        let temp_a = a[i+1]; // offset by 1 for "jl.com"
 
         temp_li.style.float = 'none';
         temp_li.style.padding = '15px';
