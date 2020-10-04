@@ -24,6 +24,7 @@ function handleLoad(e) {
 
 function setResponsiveUI() {
   console.log('info: mobile');
+  let body = document.getElementsByTagName('body')[0];
   let menu = document.getElementById('btn-menu');
   let nav_home = document.getElementById('nav_home');
   let nav_right = document.getElementById('nav_right');
@@ -32,6 +33,9 @@ function setResponsiveUI() {
   let a = document.getElementsByTagName('a');
 
   // ui: display mobile menu
+  body.style.margin = '0px';
+  menu.style.padding = '10px';
+  menu.style.border = '1px solid black';
   nav_home.style.display = 'block';
   nav_right.style.display = 'none';
   nav_left.style.display = 'none';

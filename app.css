@@ -4,10 +4,22 @@
   background-color: beige;
 }
 
+body {
+  margin-bottom: 75px;
+}
+
 a {
   background-color: black;
   padding: 3px 10px;
   text-decoration: none;
+}
+
+.fragment {
+  font-family: helvetica;
+  color: black;
+  background-color: transparent;
+  padding-left: 0;
+  cursor: auto;
 }
 
 li {
@@ -48,27 +60,41 @@ button#btn-menu {
 /** PAGE: PROJECT **/
 .project-card {
   max-width: 100% !important;
-  margin: auto;
+  margin: 60px auto;
   text-align: center;
+
 }
 
 .project-title {
-  background-color: lime;
+  /* background-color: lime;
   color: black;
   font-family: monospace;
   font-size: 25px;
   font-weight: 200;
   letter-spacing: -1px;
   margin-bottom: 10px;
-  padding: 3px 10px;
+  padding: 3px 10px; */
+  color: black;
+  font-family: helvetica;
+  font-size: 31px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin: 0px;
+  padding-left: 10px;
+  text-align: left;
 }
 
 .project-timestamp {
-  background: lime;
+  /* background: lime;
   color: black;
   font-family: helvetica;
   font-size: 30px;
-  margin: 10px 0;
+  margin: 10px 0; */
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  padding-left: 12px;
 }
 
 .project-description {
@@ -80,21 +106,28 @@ button#btn-menu {
   font-family: helvetica;
 }
 
+/*
+iframe (mobile)
+width: 100%;
+height: 211px;
+*/
+
 main {
   margin: auto;
   margin-top: 50px;
-  max-width: 500px;
+  max-width: 480px;
+  padding: 20px;
+  padding-top: 0;
 }
 
 .center {
-  /* left: 50%; */
-  margin: 40px auto;
-  /* margin-top: 40px; */
-  /* position: absolute; */
+  left: 50%;
+  margin: 0;
+  position: absolute;
   text-align: center;
-  /* top: 50%; */
-  /* transform: translate(-50%, -50%); */
-  width: 300px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
 }
 
 #profile-img {
@@ -130,4 +163,26 @@ main {
 .font-bold {
   font-weight: bold;
   color: red;
+}
+
+.theme-colors {
+  color: lime;
+  background-color: black;
+  padding: 0 5px;
+}
+
+.project-tix-release {
+  text-align: left;
+  padding-left: 10px;
+  color: black;
+  font-family: helvetica;
+  text-decoration: line-through;
+}
+
+.link-default {
+  color: blue;
+  background-color: transparent !important;
+  padding: 0;
+  font-family: times;
+  text-decoration: underline;
 }
