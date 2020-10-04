@@ -56,7 +56,7 @@ button#btn-menu {
 /** PAGE: PROJECT **/
 .project-card {
   max-width: 100% !important;
-  margin: 60px auto;
+  margin: 50px auto;
   text-align: center;
 
 }
@@ -64,7 +64,7 @@ button#btn-menu {
 .project-title {
   color: black;
   font-family: helvetica;
-  font-size: 31px;
+  font-size: 40px;
   font-weight: bold;
   letter-spacing: -1px;
   margin: 0px;
@@ -89,11 +89,20 @@ button#btn-menu {
   font-family: helvetica;
 }
 
-/*
-iframe (mobile)
-width: 100%;
-height: 211px;
-*/
+@media only screen and (max-device-width: 480px) {
+    main {
+      padding: 0px;
+    }
+
+    .project-title {
+      font-size: 34px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 200px;
+    }
+}
 
 main {
   margin: auto;
