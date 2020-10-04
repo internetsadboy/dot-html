@@ -4,10 +4,6 @@
   background-color: beige;
 }
 
-body {
-  margin-bottom: 75px;
-}
-
 a {
   background-color: black;
   padding: 3px 10px;
@@ -66,14 +62,6 @@ button#btn-menu {
 }
 
 .project-title {
-  /* background-color: lime;
-  color: black;
-  font-family: monospace;
-  font-size: 25px;
-  font-weight: 200;
-  letter-spacing: -1px;
-  margin-bottom: 10px;
-  padding: 3px 10px; */
   color: black;
   font-family: helvetica;
   font-size: 31px;
@@ -85,11 +73,6 @@ button#btn-menu {
 }
 
 .project-timestamp {
-  /* background: lime;
-  color: black;
-  font-family: helvetica;
-  font-size: 30px;
-  margin: 10px 0; */
   text-align: left;
   font-size: 16px;
   font-weight: bold;
